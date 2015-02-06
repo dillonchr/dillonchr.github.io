@@ -1,0 +1,68 @@
+.gray {
+    color: #666;
+}
+
+.container {
+    font-size: 1.25em;
+    max-width: 850px;
+}
+
+.container > .row {
+    margin: 50px auto;
+}
+
+header {
+    text-align: center;
+}
+
+header .name {
+    font-size: 5em;
+}
+
+header h2 {
+    font-size: 1.25em;
+}
+
+.pad-top {
+    padding-top: 20px;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 3em;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+}
+
+section p {
+    padding: 10px;
+    line-height: 1.75em;
+}
+
+section ul {
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+.job {
+    margin: 20px auto 80px auto;
+}
+
+.job .header {
+    font-size: 2em;
+}
+
+.job .header .company {
+    float: right;
+    color: #666;
+}
+
+.job .date {
+    padding: 5px 10px;
+    font-weight: bold;
+}
