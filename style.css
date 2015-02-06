@@ -56,29 +56,22 @@ section ul {
 
 .job {
     margin: 20px auto 80px auto;
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: 150px;
-}
-
-.job.imirus {
-    background-image: url('images/imirus-company-logo.png');
-}
-
-.job.kalibrate {
-    background-image: url('images/kalibrate-company-logo.png');
 }
 
 .job .header {
     font-size: 2em;
 }
 
-.job .header .company {
-    float: right;
-    color: #666;
+.job .logo {
+    width: 150px;
+}
+
+.job .name {
+    font-weight: bold;
 }
 
 .job .date {
+    font-size: 0.55em;
     padding: 5px 10px;
     font-weight: bold;
 }
