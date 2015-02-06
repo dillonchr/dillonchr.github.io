@@ -1,5 +1,11 @@
-.gray {
-    color: #666;
+a,
+a:link,
+a:visited {
+    color: coral;
+}
+
+a:hover {
+    color: mediumturquoise;
 }
 
 .container {
@@ -7,8 +13,10 @@
     max-width: 850px;
 }
 
-.container > .row {
-    margin: 50px auto;
+@media screen and (max-width: 800px) {
+    .container {
+        font-size: 0.95em;
+    }
 }
 
 header {
@@ -17,14 +25,11 @@ header {
 
 header .name {
     font-size: 5em;
+    margin-bottom: 0;
 }
 
-header h2 {
+header .row {
     font-size: 1.25em;
-}
-
-.pad-top {
-    padding-top: 20px;
 }
 
 section {
@@ -51,6 +56,17 @@ section ul {
 
 .job {
     margin: 20px auto 80px auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+.job.imirus {
+    background-image: url('images/imirus-company-logo.png');
+}
+
+.job.kalibrate {
+    background-image: url('images/kalibrate-company-logo.png');
 }
 
 .job .header {
